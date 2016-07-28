@@ -37,3 +37,4 @@ hadoop既然是一个Java框架，因此就要求我们必须要懂Java，网上
 
 Java：我们需要具备javaSE基础知识，暂时不需要java Web及各种框架知识。如果没有javaSE基础，建议在学习hadoop之前或过程中要加强这方面的学习和训练。当然有java基础和开发经验的学员学习hadoop就会更快速、更轻松。
 ```
+ZooKeeper集群快速搭建与优化:[ZooKeeper集群快速搭建与优化](http://blog.yangcvo.me/2016/05/28/ZooKeeper集群快速搭建与优化/)
