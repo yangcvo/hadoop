@@ -49,6 +49,6 @@ Hadoop相关文档：
 
 * ZooKeeper集群快速搭建与优化:[ZooKeeper集群快速搭建与优化](http://blog.yangcvo.me/2016/05/28/ZooKeeper集群快速搭建与优化/)
 
-* hadoop新增节点集群启动请求异常：Last contact：200[http://blog.yangcvo.me/2016/12/08/%E5%A4%A7%E6%95%B0%E6%8D%AEhadoop/%20hadoop%E6%96%B0%E5%A2%9E%E8%8A%82%E7%82%B9%E9%9B%86%E7%BE%A4%E5%90%AF%E5%8A%A8%E8%AF%B7%E6%B1%82%E5%BC%82%E5%B8%B8%EF%BC%9ALast%20contact%EF%BC%9A200/](hadoop新增节点集群启动请求异常：Last contact：200)
+* hadoop新增节点集群启动请求异常：Last contact：200[hadoop新增节点集群启动请求异常：Last contact：200](http://blog.yangcvo.me/2016/12/08/%E5%A4%A7%E6%95%B0%E6%8D%AEhadoop/%20hadoop%E6%96%B0%E5%A2%9E%E8%8A%82%E7%82%B9%E9%9B%86%E7%BE%A4%E5%90%AF%E5%8A%A8%E8%AF%B7%E6%B1%82%E5%BC%82%E5%B8%B8%EF%BC%9ALast%20contact%EF%BC%9A200/)
 
 
