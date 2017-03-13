@@ -1,6 +1,12 @@
 # hadoop
 
-###Hadoop、hbase、zookeeper、chukwa集群配置
+## 前言闲谈：
+
+之前做CDN云计算公司来到美年大健康现在在一家医疗大数据公司负责运维部门大大小小的活，既然是医疗大数据当然离不开大数据存储的维护，现在也同时维护大数据运维相关工作 `hadoop,spark,sqoop,hue,hive,Hbase,zookeeper`等等 测试开发生产使用起来,从集群环境维护 提升数据稳定性 高可用维护。
+
+
+
+### Hadoop、hbase、zookeeper、chukwa集群配置
 
 ```
 首先我们要了解hadoop是什么？Hadoop能够做什么？Hadoop的使用场景是什么？Hadoop和大数据、云计算的关系是什么？如何使用hadoop？
@@ -10,14 +16,14 @@
 我们知道hadoop有单机模式，伪分布模式和分布式模式。同时hadoop的环境是Linux，所以我们还需要安装Linux系统。因为我们的习惯是使用windows，所以对于Linux上来就安装软件之类的，困难程度会很大。并且我们要搭建集群，需要多台硬件的，不可能为了搭建集群，去买三台电脑。所以从成本和使用的角度我们还需要懂虚拟化方面的知识。这里的虚拟化其实就是我们需要懂得虚拟机的使用。因为hadoop安装在Linux中，才能真正发挥作用。所以我们也不会使用windows。
 
 ```
-###基于以上内容。所以我们需要懂得:
+### 基于以上内容。所以我们需要懂得:
 ```
 虚拟化
 Linux
 java基础
 ```
 
-###下面我们来详细介绍： 虚拟化：我们选择的是VMware
+### 下面我们来详细介绍： 虚拟化：我们选择的是VMware
 ```
 Workstation，这里就要求我们会搭建虚拟机，安装linux（如centos）操作系统，这方面只要按照视频操作应该还是很简单的，难点在于虚拟机网络的配置，尤其是nat模式和bridge模式，因为hadoop要求主机与虚拟机与外部网络（能上网），这三者是相通的，都能够连接上网络，只有这样在安装的过程中，才不会遇到麻烦。
 
@@ -37,4 +43,12 @@ hadoop既然是一个Java框架，因此就要求我们必须要懂Java，网上
 
 Java：我们需要具备javaSE基础知识，暂时不需要java Web及各种框架知识。如果没有javaSE基础，建议在学习hadoop之前或过程中要加强这方面的学习和训练。当然有java基础和开发经验的学员学习hadoop就会更快速、更轻松。
 ```
-ZooKeeper集群快速搭建与优化:[ZooKeeper集群快速搭建与优化](http://blog.yangcvo.me/2016/05/28/ZooKeeper集群快速搭建与优化/)
+
+Hadoop相关文档：
+可以查看我blog和留言我看到会帮你解答：blog.yangcvo.me
+
+* ZooKeeper集群快速搭建与优化:[ZooKeeper集群快速搭建与优化](http://blog.yangcvo.me/2016/05/28/ZooKeeper集群快速搭建与优化/)
+
+* hadoop新增节点集群启动请求异常：Last contact：200[http://blog.yangcvo.me/2016/12/08/%E5%A4%A7%E6%95%B0%E6%8D%AEhadoop/%20hadoop%E6%96%B0%E5%A2%9E%E8%8A%82%E7%82%B9%E9%9B%86%E7%BE%A4%E5%90%AF%E5%8A%A8%E8%AF%B7%E6%B1%82%E5%BC%82%E5%B8%B8%EF%BC%9ALast%20contact%EF%BC%9A200/](hadoop新增节点集群启动请求异常：Last contact：200)
+
+
