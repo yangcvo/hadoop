@@ -1,4 +1,4 @@
-# hadoop
+# Hadoop
 
 ## 前言闲谈：
 
